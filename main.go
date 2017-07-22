@@ -3,11 +3,9 @@ package main
 import (
 	"flag"
 	"log"
-	"time"
-
 	"os"
-
 	"strings"
+	"time"
 
 	"github.com/kardianos/service"
 )
