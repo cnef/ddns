@@ -146,8 +146,8 @@ func main() {
 		logger.Errorf("Erroring load config: %v", err)
 		return
 	}
-
 	logger.Infof("Getting record id: %s", recordID)
+	prg.recordID = recordID
 
 	err = svc.Run()
 	if err != nil {
